@@ -57,6 +57,7 @@ The distribution of the features and the target were explored as well as the rel
 * Most participant do not have family history of autism  
 * The majority class is the ‘Yes’ class    
 <br/>
+
 **Adult dataset:**  
 * More younger people (20-30 years) participated than older ones (31 -64 years)  
 * Adults with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features  
