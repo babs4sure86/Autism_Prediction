@@ -23,12 +23,12 @@ Features:
 * Relation – Relationship of the test taker with the person answering the questionnaire  
 * Class – Target class (whether the participant has autism or not)  
 <br/>  
-**Toddler data:**  
-Number of records: 1054  
-Number of features: 18  
+**Toddler data:**   
+Number of records: 1054    
+Number of features: 18   
 Features:  
-* A1 – A10 - Set of behavioural questions asked  
-* Age – The child’s age in Months  
+* A1 – A10 - Set of behavioural questions asked   
+* Age – The child’s age in Months   
 * Sex – Male or female  
 * Ethnicity – The ethnic group the participant belongs  
 * Had_jaundice – Whether the child developed jaundice at birth or not  
