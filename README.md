@@ -41,33 +41,33 @@ Features:
 **Data Cleaning**  
 The toddler dataset has no missing values and duplicate. On the other hand, ethnicity and test_taker_relation columns contain about 13% missing values and were filled with the word ‘missing’. The age column of the adult data sets contains two rows with missing values and the two rows were dropped.   
 Column transformation: The yes/no categorical features were transformed to 1/0 including the target variable  
-Exploratory data analysis (EDA)  
+**Exploratory data analysis (EDA)**    
 The distribution of the features and the target were explored as well as the relationship between features and target variable. The following were observed:  
-**Toddler dataset**
-* Toddlers of 36 months of age participated the most  
-* Toddlers with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features  
-* There is no strong association between age and autism
-* There are more male participants
-* Most participants are White European and Asian
-* Most participant did not develop jaundice at birth
-* Most participant do not have family history of autism
-* The majority class is the ‘Yes’ class   
-**Adult dataset:**
-* More younger people (20-30 years) participated than older ones (31 -64 years)
-* Adults with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features
-* There is approximately equal distribution of the male and female categories in the sex column
-* White European participated the most
-* More people had Jaundice when they were born
-* People that participated are mostly from the US,UAE, New Zealand and UK
-* Most people that participated have not used the app before
-* Most people participated in person
-* The majority class is the ‘No’ class
-### Modeling
+**Toddler dataset**  
+* Toddlers of 36 months of age participated the most   
+* Toddlers with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features   
+* There is no strong association between age and autism  
+* There are more male participants  
+* Most participants are White European and Asian  
+* Most participant did not develop jaundice at birth  
+* Most participant do not have family history of autism  
+* The majority class is the ‘Yes’ class    
+**Adult dataset:**  
+* More younger people (20-30 years) participated than older ones (31 -64 years)  
+* Adults with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features  
+* There is approximately equal distribution of the male and female categories in the sex column  
+* White European participated the most  
+* More people had Jaundice when they were born  
+* People that participated are mostly from the US,UAE, New Zealand and UK  
+* Most people that participated have not used the app before  
+* Most people participated in person  
+* The majority class is the ‘No’ class  
+### Modeling  
 The result and the Qchat-10-Score columns were dropped as they were obtained from the A1-A10 columns. This is necessary to prevent overfitting.  
-One-hot-encoding was used to transform the non-binary categorical features to numerical for modeling
+One-hot-encoding was used to transform the non-binary categorical features to numerical for modeling.   
 80% - 20% train-test split was used.  
-The results of the models used are summarized below:
-**Toddler**
+The results of the models used are summarized below:  
+**Toddler**  
 Baseline accuracy: 69%  
 Model | Best model accuracy CV (train) | Best model accuracy CV (test)
 ------| -------------------------------| -----------------------------
