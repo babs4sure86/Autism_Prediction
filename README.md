@@ -45,6 +45,8 @@ The toddler dataset has no missing values and duplicate. On the other hand, ethn
 Column transformation: The yes/no categorical features were transformed to 1/0 including the target variable  
 **Exploratory data analysis (EDA)**    
 The distribution of the features and the target were explored as well as the relationship between features and target variable. The following were observed:  
+<br/>
+
 **Toddler dataset**  
 * Toddlers of 36 months of age participated the most   
 * Toddlers with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features   
@@ -54,6 +56,7 @@ The distribution of the features and the target were explored as well as the rel
 * Most participant did not develop jaundice at birth  
 * Most participant do not have family history of autism  
 * The majority class is the ‘Yes’ class    
+<br/>
 **Adult dataset:**  
 * More younger people (20-30 years) participated than older ones (31 -64 years)  
 * Adults with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features  
