@@ -23,6 +23,7 @@ Features:
 * Relation – Relationship of the test taker with the person answering the questionnaire  
 * Class – Target class (whether the participant has autism or not)  
 <br/>  
+
 **Toddler data:**   
 Number of records: 1054    
 Number of features: 18   
