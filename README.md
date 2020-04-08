@@ -38,6 +38,7 @@ Features:
 * Test_taker_relation - Relationship of the test taker with the person answering the questionnaire  
 * Class – Target class  
 <br/>
+
 ### Preprocessing
 **Data Cleaning**  
 The toddler dataset has no missing values and duplicate. On the other hand, ethnicity and test_taker_relation columns contain about 13% missing values and were filled with the word ‘missing’. The age column of the adult data sets contains two rows with missing values and the two rows were dropped.   
