@@ -68,7 +68,7 @@ One-hot-encoding was used to transform the non-binary categorical features to nu
 80% - 20% train-test split was used.  
 The results of the models used are summarized below:
 **Toddler**
-Baseline accuracy: 69%
+Baseline accuracy: 69%  
 Model | Best model accuracy CV (train) | Best model accuracy CV (test)
 ------| -------------------------------| -----------------------------
 Decision tree |    91.3  |  88.1
