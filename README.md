@@ -10,7 +10,7 @@ Adult data:
 Number of records: 704  
 Number of features: 20  
 Features:  
-A1_Score – A10_Score – set of behioural questions asked   
+A1_Score – A10_Score – set of behavioural questions asked   
 Age – Age of the participant in years  
 Gender – Male or female  
 Ethnicity – The ethnic group the participant belongs  
@@ -27,7 +27,7 @@ Toddler data:
 Number of records: 1054  
 Number of features: 18  
 Features:  
-A1 – A10 - Set of behioural questions asked  
+A1 – A10 - Set of behavioural questions asked  
 Age – The child’s age in Months  
 Sex – Male or female  
 Ethnicity – The ethnic group the participant belongs  
@@ -36,5 +36,22 @@ Family_History – Whether the child has a family member with autism
 Qchat-10-Score - The overall result of the test based on A1 – A10 scores  
 Test_taker_relation - Relationship of the test taker with the person answering the questionnaire  
 Class – Target class  
+<br/>
+### Preprocessing
+**Data Cleaning**  
+The toddler dataset has no missing values and duplicate. On the other hand, ethnicity and test_taker_relation columns contain about 13% missing values and were filled with the word ‘missing’. The age column of the adult data sets contains two rows with missing values and the two rows were dropped.   
+Column transformation: The yes/no categorical features were transformed to 1/0 including the target variable  
+Exploratory data analysis (EDA)  
+The distribution of the features and the target were explored as well as the relationship between features and target variable. The following were observed:  
+**Toddler dataset**
+* Toddlers of 36 months of age participated the most  
+* Toddlers with ASD answered mostly ‘yes’ to the A1- A10 behavioural question. This suggest a strong association between ASD and the A1-A10 features  
+* There is no strong association between age and autism
+* There are more male participants
+* Most participants are White European and Asian
+* Most participant did not develop jaundice at birth
+* Most participant do not have family history of autism
+* The majority class is the ‘Yes’ class 
+
 
 
