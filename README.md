@@ -42,7 +42,9 @@ Features:
 ### Preprocessing
 **Data Cleaning**  
 The toddler dataset has no missing values and duplicate. On the other hand, ethnicity and test_taker_relation columns contain about 13% missing values and were filled with the word ‘missing’. The age column of the adult data sets contains two rows with missing values and the two rows were dropped.   
-Column transformation: The yes/no categorical features were transformed to 1/0 including the target variable  
+Column transformation: The yes/no categorical features were transformed to 1/0 including the target variable
+<br/>
+
 **Exploratory data analysis (EDA)**    
 The distribution of the features and the target were explored as well as the relationship between features and target variable. The following were observed:  
 <br/>
@@ -82,12 +84,29 @@ Random forest |  96.2  |  95.2
 Gradient boosting | 98.7  | 96.2
 Adaboost | 100  | 99.3
 
-Model | Precision | Recall | fi score
+Model | Precision | Recall | f1 score
 ------| ----------| -------| ---------
 Decision tree | 93.0   | 94.7  |  93.8
 Random forest |  97.6  |  96.9  |  96.2
 Gradient boosting |  98.8  | 99.3 | 99.1
-Adaboost |  99.3  |  99.3  |  99.3
+Adaboost |  99.3  |  99.3  |  99.3  
+
+**Adult**  
+Baseline accuracy: 69%  
+Model | Best model accuracy CV (train) | Best model accuracy CV (test)
+------| -------------------------------| -----------------------------
+Decision tree |    91.1  |  88
+Random forest |  96.3  |  93.0
+Gradient boosting | 98.7  | 96.2
+Adaboost | 99  | 96
+
+Model | Precision | Recall | f1 score
+------| ----------| -------| ---------
+Decision tree | 80.5   | 84.9  |  82
+Random forest |  95.4  |  89  |  92
+Gradient boosting |  93  | 80 | 86
+Adaboost |  94.8  |  94.0  |  94.4
+
 
 
 
