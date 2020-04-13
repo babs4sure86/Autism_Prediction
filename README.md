@@ -114,10 +114,10 @@ Plot of feature importances presented below shows that:
 * For Adaboost, only the A predictors are important and they have almost equal importance except A3 and A4
 In general, responses to questions A1-A10 mostly determine whether a child will develop autism or not.   
 
+Feature importances for toddler dataset
 ![Feature Importances (Toddler)](/photos/Children.png)  
 
-<div align="center"> *Feature importances for toddler dataset. The most important predictor in the best model A4* 
-  
+
 <figure>
   <img src="/photos/Children.png" alt=".." title="Optional title" />
   <figcaption>Feature importances for toddler dataset. The most important predictor in the best model A4</figcaption>
