@@ -117,14 +117,7 @@ In general, responses to questions A1-A10 mostly determine whether a child will 
 <br/>  
 
 ![Feature importances for toddler dataset](./photos/Children.png)  
-
-
-<figure>
-  <img src="/photos/Children.png" alt=".." title="Optional title" />
-  <figcaption>Feature importances for toddler dataset. The most important predictor in the best model A4</figcaption>
-</figure>
-
-
+*Feature importances for toddler dataset*
 
 ### Conclusion  
 Autism dataset consisting of 1054 rows and 18 features (Toddler) and 704 row and 20 features (Adults) were explored and a model that predicts whether a toddler/adult will be diagonised with autism disorder was built from features comprising of set of behavioural questions about the participants (A1-A10) and some personal information. Correlation plot of the features with the target revealed that A1-A10 features more strongly correlated with the features and could be better predictors. <br\>
