@@ -117,10 +117,13 @@ In general, responses to questions A1-A10 mostly determine whether a child will 
 <br/>  
 
 ![Feature importances for toddler dataset](./photos/Children.png)  
-*Feature importances for toddler dataset*
+<p align="center">
+  *Feature importances for toddler dataset*
+</p>
+
 
 ### Conclusion  
-Autism dataset consisting of 1054 rows and 18 features (Toddler) and 704 row and 20 features (Adults) were explored and a model that predicts whether a toddler/adult will be diagonised with autism disorder was built from features comprising of set of behavioural questions about the participants (A1-A10) and some personal information. Correlation plot of the features with the target revealed that A1-A10 features more strongly correlated with the features and could be better predictors. <br\>
+Autism dataset consisting of 1054 rows and 18 features (Toddler) and 704 row and 20 features (Adults) were explored and a model that predicts whether a toddler/adult will be diagonised with autism disorder was built from features comprising of set of behavioural questions about the participants (A1-A10) and some personal information. Correlation plot of the features with the target revealed that A1-A10 features more strongly correlated with the features and could be better predictors. <br/>
 Different models were tested including Naive Bayes, Decision tree, Random forest, Gradient boosting and Adaboost. A model which predicts the majority class was chosen as the basline model. The f1 score was chosen as a metric to measure the performance of the models and it was found that Adaboost has the the highest f1 score and was chosen as the best model for both toddler and adult datasets. An improvement of 31% on the baseline model was observed. Plots of feature importances show that A9 in general has the strongest predictive power except in the case of Adaboost which has A4 as the strongest predictor. Adaboost was the best model for both toddler and adult datasets.
 
 
