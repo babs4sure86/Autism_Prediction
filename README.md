@@ -118,7 +118,7 @@ In general, responses to questions A1-A10 mostly determine whether a child will 
 
 ![Feature importances for toddler dataset](./photos/Children.png)  
 <p align="center">
-  *Feature importances for toddler dataset*
+  <b> Feature importances for toddler dataset </b>
 </p>
 
 
