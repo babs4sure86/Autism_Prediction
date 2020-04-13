@@ -111,7 +111,7 @@ Adaboost |  94.8  |  94.0  |  94.4
 Plot of feature importances presented below shows that:
 * A9 is the strongest predictor for all models examined except for Adaboost with A4 being the strongest predictor
 * For other models except Adaboost, there is variation in feature importance for the A predictors.
-* For Adaboost, only the A predictors are important and they have almost equal importance except A3 and A4
+* For Adaboost, only the A predictors are important and they have almost equal importance except A3 and A4.  
 In general, responses to questions A1-A10 mostly determine whether a child will develop autism or not.   
 
 <br/>  
@@ -119,7 +119,13 @@ In general, responses to questions A1-A10 mostly determine whether a child will 
 ![Feature importances for toddler dataset](./photos/Children.png)  
 <p align="center">
   <i> Feature importances for toddler dataset </i>
+</p>  
+
+![Feature importances for Adult dataset](./photos/Adult_FI.png)  
+<p align="center">
+  <i> Feature importances for Adult dataset </i>
 </p>
+
 
 
 ### Conclusion  
