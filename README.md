@@ -115,7 +115,7 @@ Plot of feature importances presented below shows that:
 In general, responses to questions A1-A10 mostly determine whether a child will develop autism or not.  
 ![Feature Importances (Toddler)](/photos/Children.png)
 
-<div align="center">*Feature importances for toddler dataset. The most important predictor in the best model A4*
+<div align="center"> *Feature importances for toddler dataset. The most important predictor in the best model A4*  
 
 
 ### Conclusion  
