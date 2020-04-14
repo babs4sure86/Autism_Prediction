@@ -69,7 +69,11 @@ The distribution of the features and the target were explored as well as the rel
 * People that participated are mostly from the US,UAE, New Zealand and UK  
 * Most people that participated have not used the app before  
 * Most people participated in person  
-* The majority class is the ‘No’ class  
+* The majority class is the ‘No’ class 
+#### Correlation of features with the target  
+For both toddler and adult datasets, analysis of the correlation between the features and the target shos that the A features are show strong correlation with the target variable and might be the important features to predict ASD. The correlation plots for toddler and adult datasets are shown in Figures 1a and 1b respectively.  
+
+
 ### Modeling  
 The result and the Qchat-10-Score columns were dropped as they were obtained from the A1-A10 columns. This is necessary to prevent overfitting.  
 One-hot-encoding was used to transform the non-binary categorical features to numerical for modeling.   
