@@ -3,7 +3,10 @@
 There are over 100,000 children in the UK that have been diagnosed with Autism Spectrum Disorder (ASD). Children on the ASD spectrum tend to show social interaction difficulties as well as speech and language problem.  Parents of children on ASD spectrum is faced with the challenge of dealing with the beahiour and also providing adequate support for the children to help them improve in the aspect of child development impacted by ASD.  
 <br/>
 Children with potential ASD shows some behavioral signs including avoiding eye contact, delayed speech, non-flexibility (getting really upset with change of routine), being obsessed with one toy, having trouble understanding other people’s feelings, struggling with jokes or sarcasm, repetitive behavior. This is not an exhaustive list of the signs of ASD in toddlers.
-ASD diagnosis commences with parents of the child completing a Modified Checklist for Autism in Toddlers (M-CHAT). It is an early test for children between 16-30 months. However, this is not a proper diagnosis but could points to whether the child could develop ASD or not. Early detection of ASD is crucial as early intervention significantly improves the child’s condition. Children with ASD could get help from developmental pediatrician, occupational therapist, speech therapist and educational psychologist. It should be noted that confirmatory ASD diagnosis is usually delayed till a child is about 4-5 years. However, early prediction of the possibility of a child having ASD will significantly improve the child’s behavior, as appropriate support will be provided early.  
+ASD diagnosis commences with parents of the child completing a Modified Checklist for Autism in Toddlers (M-CHAT). It is an early test for children between 16-30 months. However, this is not a proper diagnosis but could points to whether the child could develop ASD or not. Early detection of ASD is crucial as early intervention significantly improves the child’s condition. Children with ASD could get help from developmental pediatrician, occupational therapist, speech therapist and educational psychologist. It should be noted that confirmatory ASD diagnosis is usually delayed till a child is about 4-5 years. However, early prediction of the possibility of a child having ASD will significantly improve the child’s behavior, as appropriate support will be provided early. 
+<br/>  
+
+ASD in adults are also common as some adults for some reasons may not have been diagnosed with ASD when they were toddlers. Such adults later show some social interaction difficulties such as difficulty in understanding other people's emotions, difficulty in managing challenging situations and so on.
 ### Data Collection
 The data for this project was obtained from kaggle website. There are two sets of data – Toddler autism data and Adult autism data  
 **Adult data:**  
@@ -106,7 +109,7 @@ Gradient boosting |  98.8  | 99.3 | 99.1
 Adaboost |  99.3  |  99.3  |  99.3  
 
 **Adult**  
-Baseline accuracy: 69%  
+Baseline accuracy: 73%  
 Model | Best model accuracy CV (train) | Best model accuracy CV (test)
 ------| -------------------------------| -----------------------------
 Decision tree |    91.1  |  88
@@ -122,29 +125,29 @@ Gradient boosting |  93  | 80 | 86
 Adaboost |  94.8  |  94.0  |  94.4  
 
 ### Feature Importances
-Plot of feature importances presented below shows that:
+Plots of feature importances presented in Figures 2a and 2b show that for both datasets:
 * A9 is the strongest predictor for all models examined except for Adaboost with A4 being the strongest predictor
-* For other models except Adaboost, there is variation in feature importance for the A predictors.
+* For other models except Adaboost, there is strong variation in feature importance for the A predictors.
 * For Adaboost, only the A predictors are important and they have almost equal importance except A3 and A4.  
-In general, responses to questions A1-A10 mostly determine whether a child will develop autism or not.   
+In general, responses to questions A1-A10 mostly determine whether a toddler or adult will develop ASD or not.   
 
 <br/>  
 
 ![Feature importances for toddler dataset](./photos/Children.png)  
 <p align="center">
-  <i> Feature importances for toddler dataset </i>
+  <i> Figure 2a: Feature importances for toddler dataset </i>
 </p>  
 
 ![Feature importances for Adult dataset](./photos/Adult_FI.png)  
 <p align="center">
-  <i> Feature importances for Adult dataset </i>
+  <i> Figure 2b: Feature importances for Adult dataset </i>
 </p>
 
 
 
 ### Conclusion  
-Autism dataset consisting of 1054 rows and 18 features (Toddler) and 704 row and 20 features (Adults) were explored and a model that predicts whether a toddler/adult will be diagonised with autism disorder was built from features comprising of set of behavioural questions about the participants (A1-A10) and some personal information. Correlation plot of the features with the target revealed that A1-A10 features more strongly correlated with the features and could be better predictors. <br/>
-Different models were tested including Naive Bayes, Decision tree, Random forest, Gradient boosting and Adaboost. A model which predicts the majority class was chosen as the basline model. The f1 score was chosen as a metric to measure the performance of the models and it was found that Adaboost has the the highest f1 score and was chosen as the best model for both toddler and adult datasets. An improvement of 31% on the baseline model was observed. Plots of feature importances show that A9 in general has the strongest predictive power except in the case of Adaboost which has A4 as the strongest predictor. Adaboost was the best model for both toddler and adult datasets.
+Autism dataset consisting of 1054 rows and 18 features (toddler) and 704 row and 20 features (adults) were explored and a model that predicts whether a toddler/adult will be diagonised with autism disorder was built from features comprising of set of behavioural questions about the participants (A1-A10) and some personal information. Correlation plot of the features with the target revealed that A1-A10 features more strongly correlated with the features and could be better predictors. <br/>
+Different models were tested including Naive Bayes, Decision tree, Random forest, Gradient boosting and Adaboost. A model which predicts the majority class was chosen as the basline model. The f1 score was chosen as a metric to measure the performance of the models and it was found that Adaboost has the the highest f1 score and was chosen as the best model for both toddler and adult datasets. An improvement of 30% on the baseline model was observed for toddler dataset and 26% for adult dataset. Plots of feature importances show that A9 in general has the strongest predictive power except in the case of Adaboost which has A4 as the strongest predictor. Adaboost was the best model for both toddler and adult datasets based on f1 score.  
 
 
 
