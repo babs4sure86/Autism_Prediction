@@ -29,10 +29,8 @@ Features:
 
 The description of the A features is shown below:  
 
-![A features description](./photos/description.png)  
-<p align="center">
-  <i> A features description </i>
-</p>     
+![A features description](./photos/description.png)   
+    
 
 **Toddler data:**   
 Number of records: 1054    
